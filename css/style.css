@@ -1,6 +1,7 @@
 body {
   font-size: 20px;
   background-color: #ffffff;
+  margin: 0 auto;
 }
 .main {
   display: flex;
@@ -123,13 +124,19 @@ button {
   margin-left: 0;
   padding: 15px 24px;
 }
+
+.change-theme {
+    width: 30px;
+    height: 30px;
+  }
+
 @media screen and (max-width: 768px) {
   .calc {
     width: 300px;
-    margin: 0 auto;
   }
   .calc-display-input {
-    width: 280px;
+    width: 285px;
+    height: 45px;
   }
   input[placeholder] {
     font-size: 28px;
@@ -144,24 +151,87 @@ button {
     font-size: 28px;
   }
   .btn {
-    width: 64px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
   }
   .btn-long {
-    width: 140px;
+    width: 110px;
+    height: 50px;
   }
+.clear-btn {
+  width: 110px;
 }
-@media screen and (max-width: 400px) {
-  .calc {
-    width: 280px;
+  #neg-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
   }
-  .calc-display-input {
+  
+  .btn-long {
+    width: 110px;
+    height: 50px;
+  }
+
+  .btn-equal {
+    width: 110px;
+  }
+
+  .change-theme {
+    width: 30px;
+    height: 30px;
+  }
+
+@media  (max-width: 400px) {
+  .calc {
     width: 260px;
   }
+  .calc-display-input {
+    width: 240px;
+    height: 40px;
+  }
+  input[placeholder] {
+    font-size: 24px;
+  }
+  input::-moz-placeholder {
+    font-size: 24px;
+  }
+  input:-moz-placeholder {
+    font-size: 24px;
+  }
+  input:-ms-input-placeholder {
+    font-size: 24px;
+  }
   .btn {
-    width: 60px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
   .btn-long {
-    width: 132px;
+    width: 90px;
+    height: 40px;
+  }
+.clear-btn {
+  width: 90px;
+}
+  #neg-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .btn-long {
+    width: 90px;
+    height: 40px;
+  }
+
+  .btn-equal {
+    width: 90px;
+  }
+
+  .change-theme {
+    width: 20px;
+    height: 20px;
   }
 }
 

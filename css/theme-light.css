@@ -15,10 +15,6 @@ body {
   background-color: #e9eff5;
   color: #26282f;
 }
-.calc_button-row td {
-  margin: 0 auto;
-  padding: 5px;
-}
 .btn {
   color: #26282f;
 }
@@ -30,7 +26,6 @@ body {
 .clear-btn {
   background-color: #d8bfd8;
   opacity: 0.8;
-  width: 130px;
 }
 
 .btn-hover-clear-btn:hover {
