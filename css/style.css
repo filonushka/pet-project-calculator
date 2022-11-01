@@ -159,9 +159,9 @@ button {
     width: 110px;
     height: 50px;
   }
-.clear-btn {
+  .clear-btn {
   width: 110px;
-}
+  }
   #neg-btn {
     width: 50px;
     height: 50px;
@@ -211,7 +211,7 @@ button {
     width: 90px;
     height: 40px;
   }
-.clear-btn {
+ .clear-btn {
   width: 90px;
 }
   #neg-btn {
@@ -235,7 +235,7 @@ button {
   }
 }
 
-.change-theme[data-theme="dark"] {
+  .change-theme[data-theme="dark"] {
   display: block;
 }
 
